@@ -14,5 +14,9 @@ when bomb is not found.
 Save game state if app closed while game playing.- Restarting app restarts game where you were.
 Restarting application keeps your chosen board size and bomb number constant.
 
+Here is a demo while application is running: 
+
+![](https://github.com/ahmadsami07/Bomb-Defuser-Android-App/blob/master/docs/playing.jpg)
+
 
 	
