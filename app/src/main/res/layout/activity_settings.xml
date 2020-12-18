@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settings"
+    tools:context=".UI.SettingsActivity">
+
+    <Button
+        android:id="@+id/erasescores"
+        android:layout_width="143dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginBottom="88dp"
+        android:text="@string/erase_your_scores"
+        android:textColor="#8B0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/erasetimes" />
+
+    <Spinner
+        android:id="@+id/fieldspinner"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/boardsizetext"
+        app:layout_constraintTop_toBottomOf="@+id/settingsboard" />
+
+    <Spinner
+        android:id="@+id/bombsnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/numberbombtext"
+        app:layout_constraintTop_toBottomOf="@+id/fieldspinner"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/boardsizetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/board_size"
+        android:textColor="#8B0000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsboard" />
+
+    <TextView
+        android:id="@+id/numberbombtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/bombs"
+        android:textColor="#8B0000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boardsizetext" />
+
+    <TextView
+        android:id="@+id/settingsboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/game_settings"
+        android:textColor="#8B0000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/topscore2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/topview"
+        android:textColor="#8B0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topscore1" />
+
+    <TextView
+        android:id="@+id/topscore3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/topview"
+        android:textColor="#8B0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topscore2" />
+
+    <TextView
+        android:id="@+id/topscore1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/topview"
+        android:textColor="#8B0000"
+        app:layout_constraintBottom_toTopOf="@+id/topscore2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/highscore" />
+
+    <ImageView
+        android:id="@+id/highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:contentDescription="@string/highscore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/highscore" />
+
+    <Button
+        android:id="@+id/erasetimes"
+        android:layout_width="143dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginBottom="88dp"
+        android:text="@string/erase_times_played"
+        android:textColor="#8B0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

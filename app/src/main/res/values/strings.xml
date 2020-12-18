@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">CMPT276 Assignment3</string>
+    <string name="HelpScreen">You are put in the shoes of an apprentice in the bomb defusal squad of the
+    Special Air Service(SAS). \n You have to use your knowledge and skills to predict the potential
+    locations of bombs; every error will increase the number of scans. \n You must attempt
+    to locate and defuse all bombs in fewest number of scans possible. \n
+    Clicking on an already-found bomb will result in a scan as well, \n as you will
+    attempt to use the scanning tools to survey the row and column to find the rest of the bombs.</string>
+    <string name="main_menu">MAIN MENU</string>
+    <string name="game_authored_by_ahmad_as_sami">Game Authored by Ahmad As Sami</string>
+    <string name="scantimeres">%d</string>
+    <string name="main_menu1">Main Menu</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+    <string name="defuse_mode">Defuse Mode</string>
+    <string name="a_mushroom_cloud">A mushroom cloud</string>
+    <string name="board_size">Board Size:</string>
+    <string name="bombs"># Bombs:</string>
+    <string name="game_settings">Game Settings</string>
+    <string name="Defused">Defused %1$d of %2$d bombs.</string>
+    <string name="Scans">#Scans used: %1$d</string>
+    <string name="fig_bomb_internals">Fig: Bomb Internals</string>
+    <string name="bomb_defuser">Bomb Defuser</string>
+    <string name="skip">SKIP</string>
+    <string name="by_sgt_johan">By Ahmad As Sami</string>
+    <string name="a_rotating_bom">A rotating bom</string>
+    <string name="citations">Project Idea: CMPT 276  https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home \n
+        Opt Image:https://www.shutterstock.com/video/clip-1049958070-technology-concept---animation-cogs-gears-on\n
+        Background Image: Ironman HUD : https://www.pinterest.ca/pin/416794140491747770 \n
+    </string>
+    <string name="congratulations_you_have_defused_all_bombs_and_successfully_saved_millions_of_lives_from_danger_you_are_a_true_hero_to_this_world">Congratulations! You are a true hero to this world.</string>
+    <string name="victoryimage">victoryimage</string>
+    <string name="helicopter_extraction">helicopter extraction</string>
+    <string name="timesplayed">Times Played: %1$d</string>
+    <string name="score">Top Scan Score For Current Config:%1$d</string>
+    <string name="topscore1">Top Defuse Score For Board 4x6(any number of bombs): %1$d</string>
+    <string name="topscore2">Top Defuse Score For Board 5x10(any number of bombs): %1$d</string>
+    <string name="topscore3">Top Defuse Score For Board 6x15(any number of bombs): %1$d</string>
+    <string name="topview">TextView</string>
+    <string name="highscore">highscore</string>
+    <string name="topscore">TextView</string>
+    <string name="erase_your_scores">Erase Your Scores!</string>
+    <string name="erase_times_played">Erase Times Played</string>
+    <string name="a_target_hud">a target HUD</string>
+    <string name="victory">victory!</string>
+</resources>

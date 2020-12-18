@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="num_fieldoptions">
+        <item>Please Select...</item>
+        <item>4x6</item>
+        <item>5x10</item>
+        <item>6x15</item>
+    </string-array>
+    <integer name="defaultrow">4</integer>
+    <integer name="defaultcol">6</integer>
+    <integer name="defaultbomb">6</integer>
+
+</resources>

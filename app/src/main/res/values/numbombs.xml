@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="numbomb">
+        <item>Please Select…</item>
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+        <item>15</item>
+    </string-array>
+</resources>

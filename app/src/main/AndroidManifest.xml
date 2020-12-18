@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.cmpt276assignment3">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:configChanges="keyboard|keyboardHidden|orientation"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.SettingsActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".UI.GameActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.HelpActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.MainMenu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.SplashScreen"
+            android:noHistory="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
