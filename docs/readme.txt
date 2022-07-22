@@ -12,3 +12,4 @@ Restarting the application keeps the chosen board size and bomb number constant.
 
 Here is a demo while the application is running: 
 ![appScreenshot](https://user-images.githubusercontent.com/109765625/180384923-f4f3e1ee-ac66-44ab-acc5-a9c1c964f3a2.jpg)
+![Screenshot](Images/appScreenshot.jpg)
